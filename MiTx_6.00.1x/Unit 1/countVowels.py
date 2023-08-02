@@ -1,4 +1,4 @@
-# Description: countVowels will print the number of vowels in a string with lower case letters.
+# Prints the number of vowels in a string with lower case characters, s
 
 s = 'azcbobobegghakl'
 
