@@ -1,6 +1,6 @@
 # Prints the number of times "bob" appears in a string of lower case characters, s
 
-s = 'azcbobobobboob'
+s = 'azcbobobegghakl'
 
 count = 0
 if len(s) < len('bob'):
