@@ -2,7 +2,7 @@
 
 s = 'azcbobobegghakl'
 
-longest = ""
+count = 0
 
 if len(s) == 0:
     print("error")
@@ -12,7 +12,9 @@ else:
         # checks if the current longest string is longer than the remainder of the string left to check to end early
         if len(longest) > len(s[i:]):
             break
-    
+        for j in range(len(s[i:])):
+            if 
+
     
 
 
