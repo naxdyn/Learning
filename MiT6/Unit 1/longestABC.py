@@ -1,20 +1,21 @@
 # Prints the longest substring that is in alphabetical order
 
-s = 'azcbobobegghakl'
+s = 'abcdefghijklmnopqrstuvwxyz'
 
-count = 0
 
-if len(s) == 0:
-    print("error")
-else:
-    longest = s[0]
-    for i in range(len(s)):
-        # checks if the current longest string is longer than the remainder of the string left to check to end early
-        if len(longest) > len(s[i:]):
-            break
-        for j in range(len(s[i:])):
-            if 
-
-    
+longest = s[0]
+for i in range(len(s)-1):
+    if s[i+1] >= s[i]:
+        current = s[i] 
+        j = i
+        while(s[j+1] >= s[j]):
+            current = current + s[j+1]
+            j += 1
+            i += 1
+            if len(s[j:]) < 2: 
+                break
+        if len(current) > len(longest):
+            longest = current
+print("Longest substring in alphabetical order is: " + longest)            
 
 
