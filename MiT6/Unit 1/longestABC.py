@@ -1,4 +1,5 @@
 # Prints the longest substring that is in alphabetical order
+# Written by Danny
 
 s = 'abcdefghijklmnopqrstuvwxyz'
 

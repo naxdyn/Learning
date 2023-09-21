@@ -1,4 +1,5 @@
 # Prints the number of times "bob" appears in a string of lower case characters, s
+# Written by Danny 
 
 s = 'azcbobobegghakl'
 

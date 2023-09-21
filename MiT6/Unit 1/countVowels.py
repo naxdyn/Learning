@@ -1,4 +1,5 @@
 # Prints the number of vowels in a string with lower case characters, s
+# Written by Danny
 
 s = 'azcbobobegghakl'
 
