@@ -1,4 +1,5 @@
 # Written by Danny
+# Calculates the remaining balance after 1 year of minimum monthly payments
 
 balance = 484
 annualInterestRate = 0.2
