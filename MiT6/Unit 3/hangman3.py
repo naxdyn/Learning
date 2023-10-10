@@ -9,7 +9,7 @@
 
 import random
 
-WORDLIST_FILENAME = "words.txt"
+WORDLIST_FILENAME = r"d:\HDDDocuments\Learning\MiT6\Unit 3\words.txt"
 
 def loadWords():
     """
