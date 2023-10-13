@@ -1,4 +1,4 @@
-# Hangman game
+# Hangman game, completed from skeleton provided by MiT
 
 # -----------------------------------
 # Helper code
